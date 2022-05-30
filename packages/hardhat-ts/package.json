@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "chain": "hardhat node --network hardhat --no-deploy",
-    "fork": "hardhat node --fork https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad",
+    "fork": "hardhat node --fork https://mainnet.infura.io/v3/30cbbd6d8c554b629c9ccfb4f2e8f9f6",
     "test": "hardhat test --network hardhat",
     "compile": "hardhat compile",
     "deploy": "hardhat deploy --export-all ../vite-app-ts/src/generated/contracts/hardhat_contracts.json",
@@ -16,7 +16,7 @@
     "send": "hardhat send",
     "generate": "hardhat generate",
     "account": "hardhat account",
-    "verify": "hardhat etherscan-verify --api-key PSW8C433Q667DVEX5BCRMGNAH9FSGFZ7Q8"
+    "verify": "hardhat etherscan-verify --api-key T24J53PNGD25GN6NHSY239GU29BWFWKEFS"
   },
   "dependencies": {
     "@eth-optimism/hardhat-ovm": "^0.2.2",
